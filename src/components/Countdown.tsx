@@ -1,5 +1,4 @@
-import { useState, useEffect, useContext } from 'react';
-import { ChallengesContext } from '../contexts/ChallengesContext';
+import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
 
@@ -35,7 +34,7 @@ export function Countdown() {
         disabled
         className={styles.countdownButton}
       > 
-        Ciclo encerrado
+        Ciclo encerrado <img src="/icons/level.svg"/>
       </button>
       ) : (
         <>
