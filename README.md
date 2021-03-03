@@ -1,6 +1,6 @@
 <h1 align="center">Move-it</h1>
 
-<img src="./public/screenshot.png" alt="screenshot da aplicação">
+<img align="center" src="./public/screenshot.png" alt="screenshot da aplicação">
 
 <p>
   ⌚️ Um projeto baseado no metodo de concentração conhecido como metodo de pomodoro, que consiste 
